@@ -1,0 +1,415 @@
+* {
+    font-family: 'Yeon Sung', cursive;  
+    padding : 0;
+    margin : 0;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+a::hover{
+	color:#e97341;
+	border-width:1px;
+	border-color:#e97341;
+}
+
+.header_name{
+	color:white;
+	margin-right:10px;
+	padding-top:5px;
+}
+
+.logoutbtn{
+	padding:5px;
+	background-color:#e97341;
+	color:white;
+	margin-left:10px;
+	margin-right:10px;
+	border-width:0px;
+	border-radius:5px;
+	border-style:solid;
+}
+
+header {
+    display: flex;
+    background-color: #263343;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 10px 20px;
+    font-size:24px;
+}
+
+.header__logo a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.header__logo i {
+    color:#e97341;
+}
+
+.header__menu2{
+    padding-left:0px;
+    font-size:18px;
+    display: flex;
+    padding-top:5px;
+    margin-bottom:0px;
+}
+
+.header__menu2 {
+    display:none;
+}
+
+
+.header__menu2 li {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.header__menu2 a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.header__menu{
+    position: absolute;
+    right: 80px;
+    padding-left:0px;
+    font-size:18px;
+    display: flex;
+    margin-bottom:0px;
+}
+
+.header__menu li {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.header__menu a {
+    color:white;
+    text-decoration: none;
+}
+
+.header__signin {
+    display: flex;
+    margin-bottom:0px;
+}
+
+.header__signin li {
+    list-style: none;
+}
+
+.header__signin li a {
+    font-size:15px;
+    text-decoration: none;
+    color:white;
+    padding-right: 20px;
+}
+
+.header__toogleBtn {
+    display: none;
+    position: absolute;
+    right:32px;
+    font-size:24px;
+    color:#d49466;
+    padding-top:10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.notuse {
+    width:15%;
+    height: 100%;
+}
+
+.main {
+    width:70%;
+    height: 100%;
+}
+
+
+article {
+    padding-bottom:40px;
+}
+
+footer {
+    padding: 12px 20px;
+    background-color: #263343;
+    color:white;
+    text-align: center;
+    bottom:0;
+    width:100%;
+}
+
+
+.search button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: none ;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left-width: 0px;
+    padding:0px;
+    width: 50px;
+}
+
+.search {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:0px;
+}
+
+.search input {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    width:60%;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+}
+
+.search input {
+    border-right-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.search i {
+    padding-right: 20px;
+}
+
+.search i {
+    padding:0px;
+}
+
+.search input {
+    border-color:gray;
+}
+
+.search button {
+    border-color:gray;
+}
+
+.search button i {
+    color:#e97341;
+
+}
+
+
+
+.allchampmain {
+	width:100%;
+	color:black;
+}
+
+
+.allchamphead {
+	font-size:20px;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+
+.all {
+	display:flex;
+}
+
+.num {
+	font-size:20px;
+	text-align:center;
+	margin-right:20px;
+	font-weight:bold;
+	padding-top:18px;
+}
+
+.rankname {
+	padding-top:10px;
+}
+
+
+.rankname a {
+	color:#e97341;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.rank {
+	font-size:14px;
+}
+
+.img img {
+	width:70px;
+	height:70px;
+	border-width:1px;
+	border-radius:20px;
+	border-style:solid;
+	margin-right:15px;
+}
+
+.rank img {
+	width:30px;
+	height:30px;
+}
+
+.win {
+	padding-top: 12px;
+	margin-left:50px;
+}	
+
+.wins {
+	color:rgb(52, 152, 219);
+}
+
+.losses {
+	color:rgb(231, 76, 60);
+}
+
+
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .header__menu li {
+        width:100%;
+        text-align: center;
+    }
+
+    .header__signin {
+        display: none;
+        padding-top:20px;
+        justify-content: center;
+        width:100%;
+    }
+
+    .header__signin li a {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .header__toogleBtn{
+        display: block;
+    }
+
+    .header__menu.active {
+        display:flex;
+    }
+
+    .header__signin.active {
+        display: flex;
+        padding-bottom:20px;
+    }
+
+    footer {
+        display: absolute;
+        bottom:0;
+    }
+    
+	
+	article {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+    }
+    
+    .header__menu2.active {
+        display:flex;
+    }
+
+
+    .header__menu{
+        position: absolute;
+        right:40px;
+        padding-left:0px;
+        font-size:18px;
+        display: block;
+        margin-bottom:0px;
+        width: 60%;
+    }   
+
+    .header__menu2 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .header__menu2 li {
+        width:100%;
+        text-align: center;
+    }
+    
+    .allchampmain img {
+    margin-left:10px;
+	margin-right:10px;
+    }
+	video {
+	width:100%;
+	min-width:60%;
+    }
+    
+    .rank {
+	font-size:9px;
+}
+.rank img {
+	width:20px;
+	height:20px;
+}
+
+.rankname a {
+	color:#e97341;
+	font-weight:bold;
+	font-size:9px;
+}
+
+.num {
+	font-size:13px;
+}
+
+.win {
+	font-size:13px;
+	padding-top:5px;
+}
+
+.rankname {
+	padding-top:0px;
+}
+
+}
+
+       

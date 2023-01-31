@@ -1,0 +1,900 @@
+* {
+    font-family: 'Yeon Sung', cursive;  
+    padding : 0;
+    margin : 0;
+}
+
+a {
+	text-decoration:none;
+	color:e97341;
+}
+
+.content {
+	width:100%;
+}
+
+.content1 {
+	width:100%;
+	height:70px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+.story hr {
+	margin:0px;
+}
+
+span a {
+	color:black;
+}
+
+.userlogin2 {
+	font-size:15px;color:black; padding-top:15px;
+	text-align:center;
+}
+
+.userlogin3 {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.userlogin3 button {
+	font-size:13px;width:80%; 
+	
+}
+
+thead{
+	background-color:white;
+}
+
+table {
+	background-color:white;
+}
+
+.topbackground{
+	background-image: url(../img/poro.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    left:0;
+    background-size: 100%;
+    opacity: 0.7!important;
+    filter:alpha(opacity=70);
+    z-index: -1;
+    content:"";
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	
+}
+
+.up {
+	width:10%;
+	color:#bbc0c5;
+	font-size:15px;
+	text-align:center;
+}
+
+.up div {
+	height:50%;
+}
+
+.up b {
+	font-size:12px;
+}
+
+.contenttext {
+	width:60%;
+	font-size:14px;
+	text-align:center; 
+}
+
+.nickname {
+	width:10%;	
+	color:#bbc0c5;
+	margin-right:25px;
+	font-size:13px;
+}
+
+.contentimg {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:20%;
+	height:100%;
+	font-size:10px;
+}
+
+.pop {
+	width:10%;
+	padding-right:15px;
+}
+
+#ddd {
+	margin-bottom:3px;
+		box-shadow:1px 1px 1px 1px gray;
+}
+  					
+
+.header_name{
+	color:white;
+	margin-right:10px;
+	padding-top:5px;
+}
+
+.notuse {
+	width:25%;
+}
+
+.cnotuse {
+	width:22%;
+}
+
+.user_category{
+	width:16%;
+	height:100%;
+}
+
+.write{
+	width:40%;
+	margin-bottom:100px;
+}
+
+.top-name {
+	width:25%;
+}
+
+.top-name img {
+	width:50%;
+	padding-right:50px;
+}
+
+.abc {
+	margin-bottom:20px;
+}
+
+.Searcha {
+	width:100%;
+}
+
+.content1 a{
+	margin-left:1px;
+	margin-right:1px;
+}
+
+.btn {
+	background-color:#e97341;
+	border-color:#e97341;
+	
+}
+.logoutbtn{
+	padding:5px;
+	background-color:#e97341;
+	color:white;
+	margin-left:10px;
+	margin-right:10px;
+	border-width:0px;
+	border-radius:5px;
+	border-style:solid;
+}
+
+a::hover{
+	color:#e97341;
+	border-width:1px;
+	border-color:#e97341;
+}
+
+header {
+    display: flex;
+    background-color: #263343;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 10px 20px;
+    font-size:24px;
+}
+
+.header__logo a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.header__logo i {
+    color:#e97341;
+}
+
+.header__menu2{
+    padding-left:0px;
+    font-size:18px;
+    display: flex;
+    padding-top:5px;
+    margin-bottom:0px;
+}
+
+.header__menu2 {
+    display:none;
+}
+
+
+.header__menu2 li {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.header__menu2 a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.header__menu{
+    position: absolute;
+    right: 80px;
+    padding-left:0px;
+    font-size:18px;
+    display: flex;
+    margin-bottom:0px;
+}
+
+.header__menu li {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.header__menu a {
+    color:white;
+    text-decoration: none;
+}
+
+.header__signin {
+    display: flex;
+    margin-bottom:0px;
+}
+
+.header__signin li {
+    list-style: none;
+}
+
+.header__signin li a {
+    font-size:15px;
+    text-decoration: none;
+    color:white;
+    padding-right: 20px;
+}
+
+.header__toogleBtn {
+    display: none;
+    position: absolute;
+    right:32px;
+    font-size:24px;
+    color:#d49466;
+    padding-top:10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    height:100%;
+}
+
+.notuse {
+    width:15%;
+    height: 100%;
+}
+
+.main {
+    width:100%;
+    height:100%;
+}
+
+.community {
+	display:flex;
+	justify-content:center;
+	background-color:#ebeef1;
+	height:100%;
+}
+
+.uc {
+	position:relative;
+	margin-top:-30px;
+	width:90%;
+	height:600px;
+	background-color:white;
+	box-shadow:1px 1px 1px 1px gray;
+	padding-bottom:20px;
+}
+
+.userlogin{
+	width:100%;
+}
+
+.userlogin button {
+	margin-top:20px;
+	width:80%;
+	background-color:#e97341;
+	color:white;
+	height:40px;
+	border-style:solid;
+	border-width:0px;
+	border-radius:5px;
+	margin-bottom:5px;
+}
+
+ul {
+	list-style:none;
+	
+}
+
+.b {
+	color:#bbc0c5;
+	margin-left:13px;
+}
+
+.category{
+	width:100%;
+}
+
+.writeheader{
+	position:relative;
+	margin-top:-30px;
+	height:50px;
+	background-color:white;
+	margin-bottom:10px;
+	box-shadow:1px 1px 1px 1px gray;
+}
+
+.story {
+	width:100%;
+	background-color:white;
+	box-shadow:1px 1px 1px 1px gray;
+	margin-bottom:10px;
+}
+
+ul hr {
+	margin-left:0px;
+}
+
+.text li {
+	margin-left:18px;
+	margin-top:8px;
+	font-size:14px;
+}
+
+article {
+    padding-bottom:40px;
+}
+
+footer {
+    padding: 12px 20px;
+    background-color: #263343;
+    color:white;
+    text-align: center;
+    bottom:0;
+    width:100%;
+    position:relative;
+}
+
+
+.search2 button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: none ;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left-width: 0px;
+    padding:0px;
+    width: 50px;
+}
+
+.search2 {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:0px;
+}
+
+.search2 input {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    width:60%;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+}
+
+.search2 input {
+    border-right-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.search2 i {
+    padding-right: 20px;
+}
+
+.search2 i {
+    padding:0px;
+}
+
+.search2 input {
+    border-color:gray;
+}
+
+.search2 button {
+    border-color:gray;
+}
+
+.search2 button i {
+    color:#e97341;
+
+}
+
+form {
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+.form-group {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+.form-group input, label, textarea {
+	width:80%;
+}
+
+.form-control {
+	width:80%;
+}
+
+
+#exampleFormControlTextarea1{
+	height:60px;
+}
+
+#abc {
+	width:10%;
+}
+#bbc {
+	width:70%;
+}
+
+#aaa{
+	width:20%;
+}
+
+
+.input-group {
+	display:flex;
+	justify-content:center;
+	
+}
+#ee {
+	width:0%;
+}
+
+.search3 button {
+    background-color: #ebeef1;
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#c5cbd0;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left-width: 0px;
+    padding:0px;
+    width: 50px;
+}
+
+.search3 {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:0px;
+    padding-left:100px;
+}
+
+.search3 input {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+   	border-color:#c5cbd0;
+    width:60%;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+    background-color:#ebeef1;
+}
+
+.search3 input {
+    border-right-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.search3 i {
+    padding-right: 20px;
+    color:#c5cbd0;
+}
+
+.search3 i {
+    padding:0px;
+}
+
+.search3 input {
+    border-color:gray;
+}
+
+.search3 button {
+    border-color:gray;
+}
+
+.search3 button i {
+    color:#e97341;
+
+}
+
+
+.allchampmain {
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.allchampmain img {
+	border-width:1px;
+	border-radius:45px;
+	border-style:solid;
+	border-color:black;
+	width:60px;
+	height:60px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:20px;
+	box-shadow:5px 5px 5px 5px gray;
+	transition:0.8s; 
+}
+
+
+.allchampmain img:hover {
+	transform:rotateY(180deg);
+}
+
+.allchamphead {
+	font-size:20px;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+.video {
+	margin-top:20px;
+	display:flex;
+	justify-content:center;
+}
+
+video {
+	width:60%;
+	min-width:60%;
+	height:60%;
+	min-height:60%;
+	opacity:1;
+}
+
+.category a {
+	text-decoration:none;
+	color:black;
+}
+
+#exampleFormControlTextarea1{
+	width:100%;
+}
+    .search {
+    	display:none;
+    }
+    
+    .aa {
+    	display:flex;
+    	justify-content:center;
+    	width:25%;
+    }
+    
+    .ul-1{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	
+	.ul {
+		width:10%;
+		text-align:center;
+		padding-top:12px;
+	}
+	
+	.se {
+		width:70%;
+		text-align:center;
+		padding-top:7px;
+	}
+	
+	.writeheader div h4 {
+		padding-top:10px;
+		padding-left:20px;
+	}
+	
+	.writeheader hr {
+		margin:0px;
+	}
+	.search3 button i {
+	color:#c5cbd0;
+	}
+	
+	.writer1 {
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		padding-right:20px;
+	}
+	
+	.writer1 div {
+		color:#e97341;
+	}
+
+#aaa input{
+	height:60px;
+}
+
+a {
+	text-decoration:none;
+	color:#e97341;
+}
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .header__menu li {
+        width:100%;
+        text-align: center;
+    }
+
+    .header__signin {
+        display: none;
+        padding-top:20px;
+        justify-content: center;
+        width:100%;
+    }
+
+    .header__signin li a {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .header__toogleBtn{
+        display: block;
+    }
+
+    .header__menu.active {
+        display:flex;
+    }
+
+    .header__signin.active {
+        display: flex;
+        padding-bottom:20px;
+    }
+
+    footer {
+        bottom:0;
+    }
+    
+	
+	article {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+    }
+    
+    .header__menu2.active {
+        display:flex;
+    }
+
+
+    .header__menu{
+        position: absolute;
+        right:40px;
+        padding-left:0px;
+        font-size:18px;
+        display: block;
+        margin-bottom:0px;
+        width: 60%;
+    }   
+
+    .header__menu2 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .header__menu2 li {
+        width:100%;
+        text-align: center;
+    }
+    
+    .allchampmain img {
+    margin-left:10px;
+	margin-right:10px;
+    }
+	video {
+	width:100%;
+	min-width:60%;
+    }
+    
+    .topbackground{
+    	position:relative;
+    	display:block;
+    	height:170px;
+    }
+    
+    .top-name{
+		padding-top:25px;
+    	width:100%;
+    	height:70px;
+    	text-align:center;
+    }
+    
+    .Searcha{
+    	text-align:center;
+    	width:60%;
+    	margin-top:20px;
+    }
+    
+    .notuse {
+		display:none;    
+    }
+    
+        .aa {
+    	display:flex;
+    	justify-content:center;
+    	width:100%;
+    }
+    
+    .top-name img {
+	width:20%;
+	}
+
+	.cnotuse{
+		display:none;
+	
+	}
+
+	.user_category {
+		display:none;
+	}
+
+	.write {
+		width:100%;
+	}
+	
+	.top-name img {
+	width:24%;
+	padding-right:0px;
+	}
+	.writeheader{
+	position:relative;
+	margin-top:-30px;
+	height:100px;
+	background-color:white;
+	margin-bottom:10px;
+	box-shadow:1px 1px 1px 1px gray;
+	}
+	
+	.writerheader > div	{
+		height:100%;
+	}
+	
+
+	.Searcha {
+	margin:0px;
+	
+	}
+	
+	.search3 {
+		padding-left:20px;
+	}
+	
+.search3 input {
+    width:100%;
+
+}
+
+    .Searchc{
+    	text-align:center;
+    	width:100%;
+    	padding-right:10px;
+    }
+    
+    
+    section {
+    height:100%;
+}
+
+.up {
+	padding-left:10px;
+	width:10%;
+	color:#bbc0c5;
+	font-size:14px;
+	text-align:center;
+}
+
+.up div {
+	height:50%;
+}
+
+.up b {
+	font-size:11px;
+}
+
+.contenttext {
+	padding-left:15px;
+	width:60%;
+	font-size:11px;
+}
+
+.nickname {
+	width:10%;	
+	color:#bbc0c5;
+	margin-right:25px;
+	font-size:11px;
+}
+
+.se {
+	padding-top:7px;
+}
+
+	
+}
+	
+
+
+
+       

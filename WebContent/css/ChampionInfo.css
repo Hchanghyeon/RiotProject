@@ -1,0 +1,401 @@
+* {
+    font-family: 'Yeon Sung', cursive;  
+    padding : 0;
+    margin : 0;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+a::hover{
+	color:#e97341;
+	border-width:1px;
+	border-color:#e97341;
+}
+
+.header_name{
+	color:white;
+	margin-right:10px;
+	padding-top:5px;
+}
+
+.logoutbtn{
+	padding:5px;
+	background-color:#e97341;
+	color:white;
+	margin-left:10px;
+	margin-right:10px;
+	border-width:0px;
+	border-radius:5px;
+	border-style:solid;
+}
+
+header {
+    display: flex;
+    background-color: #263343;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 10px 20px;
+    font-size:24px;
+}
+
+.header__logo a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.header__logo i {
+    color:#e97341;
+}
+
+.header__menu2{
+    padding-left:0px;
+    font-size:18px;
+    display: flex;
+    padding-top:5px;
+    margin-bottom:0px;
+}
+
+.header__menu2 {
+    display:none;
+}
+
+
+.header__menu2 li {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.header__menu2 a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.header__menu{
+    position: absolute;
+    right: 80px;
+    padding-left:0px;
+    font-size:18px;
+    display: flex;
+    margin-bottom:0px;
+}
+
+.header__menu li {
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.header__menu a {
+    color:white;
+    text-decoration: none;
+}
+
+.header__signin {
+    display: flex;
+    margin-bottom:0px;
+}
+
+.header__signin li {
+    list-style: none;
+}
+
+.header__signin li a {
+    font-size:15px;
+    text-decoration: none;
+    color:white;
+    padding-right: 20px;
+}
+
+.header__toogleBtn {
+    display: none;
+    position: absolute;
+    right:32px;
+    font-size:24px;
+    color:#d49466;
+    padding-top:10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-color:#ebeef1;
+}
+
+.notuse {
+    width:15%;
+    height: 100%;
+}
+
+.main {
+    width:70%;
+    height: 100%;
+}
+
+
+article {
+    padding-bottom:40px;
+}
+
+footer {
+    padding: 12px 20px;
+    background-color: #263343;
+    color:white;
+    text-align: center;
+    bottom:0;
+    width:100%;
+}
+
+
+.search button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: none ;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left-width: 0px;
+    padding:0px;
+    width: 50px;
+}
+
+.search {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:0px;
+}
+
+.search input {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    width:60%;
+    height: 40px;
+    font-size:15px;
+    text-align: center;
+}
+
+.search input {
+    border-right-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.search i {
+    padding-right: 20px;
+}
+
+.search i {
+    padding:0px;
+}
+
+.search input {
+    border-color:gray;
+}
+
+.search button {
+    border-color:gray;
+}
+
+.search button i {
+    color:#e97341;
+
+}
+
+.allchampmain {
+	width:100%;
+	border-style:solid;
+	border-width:1px;
+	border-radius:5px;
+	border-color:white;
+	padding:20px;
+	box-shadow:1px 1px 1px 1px gray;
+	background-color:white;
+	margin-bottom:50px;
+}
+
+
+.allchampmain img {
+	border-width:1px;
+	border-style:solid;
+	border-radius:40px;
+	border-color:black;
+	width:60px;
+	height:60px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:20px;
+	box-shadow:5px 5px 5px 5px gray;
+}
+
+.allchamphead {
+	margin-top:20px;
+	font-size:20px;
+	font-weight:bold;
+	padding:20px;
+	margin-bottom:10px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:5px;
+	border-color:white;
+	background-color:white;
+	box-shadow:1px 1px 1px 1px gray;
+}
+
+.allchampmain img{
+animation-name: speed;
+animation-duration: 2s;
+}
+ 
+@keyframes speed {
+0% {transform: translate(-400px);}
+to {transform: translate(0px);}
+}
+
+.scale {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.scale {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.allchampmain img {width:100px; height:100px; overflow:hidden } 
+
+.allchampmain div {
+	font-size:20px;
+}
+
+.hr {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .header__menu li {
+        width:100%;
+        text-align: center;
+    }
+
+    .header__signin {
+        display: none;
+        padding-top:20px;
+        justify-content: center;
+        width:100%;
+    }
+
+    .header__signin li a {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .header__toogleBtn{
+        display: block;
+    }
+
+    .header__menu.active {
+        display:flex;
+    }
+
+    .header__signin.active {
+        display: flex;
+        padding-bottom:20px;
+    }
+
+    footer {
+        display: absolute;
+        bottom:0;
+    }
+    
+	
+	article {
+		display:flex;
+		justify-content:center;
+		align-items:center;
+    }
+    
+    .header__menu2.active {
+        display:flex;
+    }
+
+
+    .header__menu{
+        position: absolute;
+        right:40px;
+        padding-left:0px;
+        font-size:18px;
+        display: block;
+        margin-bottom:0px;
+        width: 60%;
+    }   
+
+    .header__menu2 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+
+    .header__menu2 li {
+        width:100%;
+        text-align: center;
+    }
+    
+    .allchampmain img {
+    margin-left:10px;
+	margin-right:10px;
+    }
+	video {
+	width:100%;
+	min-width:60%;
+    }
+    .allchampmain div {
+	font-size:15px;
+}
+
+#tipcon {
+	display:block;
+}
+}
+
+       
